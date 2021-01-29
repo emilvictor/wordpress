@@ -11,7 +11,7 @@
                 <?php if (has_post_thumbnail()) {
                     the_post_thumbnail('medium');
                 } ?>
-
+                <h1>emil</h1>
 
                 <?php the_excerpt(); ?>
 
