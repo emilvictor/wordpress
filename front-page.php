@@ -12,8 +12,14 @@
                         <?php the_content(); ?>
 
                     <?php endwhile; ?>
+                    
 
-                   <?php echo get_posts( 1) ?>
+                      <?php      $args = array('numberposts' => 3 );
+                            $latest_posts = get_posts( $args ); ?>
+
+                                 <?php   print_r($latest_posts); ?>
+                               <
+                               
 
                 </div>
             
